@@ -1,33 +1,47 @@
-# Accident-Analysis-
-Accident Analysis Dashboard
+# Road Accident Analysis Dashboard
 
-## Overview  
-This Tableau dashboard provides a comprehensive analysis of accident data, focusing on key metrics such as the number of casualties, accident severity, geographical distribution, and trends over time. The goal is to offer actionable insights to improve road safety and reduce accidents.
+## Project overview
 
----
+This project presents an interactive analysis of road-accident data. The dashboard focuses on casualty volume, accident severity, geographic distribution, and changes over time. The objective is to help identify high-risk areas and patterns that can support road-safety decisions.
 
-## Features  
-1. Total Casualties:  
-   - Displays the total number of casualties (**843,699**) to understand the overall impact of accidents.
+## Key questions
 
-2. Geographical Distribution:  
-   - Highlights high-risk areas using latitude and longitude data (e.g., 52.5453, 52.7044).  
-   - Includes a map visualization for better understanding.
+- How many casualties are recorded, and how does the total change over time?
+- Which accident-severity categories contribute most to the total?
+- Which districts or geographic areas show higher casualty counts?
+- Do the patterns change by year, month, or other available filters?
 
-3. Accident Severity Analysis:  
-   - Breaks down accidents by severity: Minor, Serious, and Fatal.  
-   - Helps prioritize resources for the most severe cases.
+## Dashboard features
 
-4. Trends Over Time:  
-   - Tracks accident trends across different months and years (e.g., January 2019, October 2022).  
-   - Identifies patterns and predicts future trends.
+- **Overall impact:** a headline casualty KPI for the selected data.
+- **Severity analysis:** comparison of Minor, Serious, and Fatal accident categories.
+- **Geographic analysis:** map-based exploration of accident locations and higher-risk areas.
+- **Time trends:** accident and casualty patterns across available years and months.
+- **District analysis:** comparison of selected districts, including examples such as Manchester and Sheffield.
+- **Interactive filters:** filtering by year, region, severity, and other available fields.
 
-5. District Analysis:  
-   - Shows the number of casualties in specific districts (e.g., Manchester, Sheffield).  
-   - Helps identify areas that require immediate attention.
+## Tools
 
-6. Interactive Filters:  
-   - Allows users to filter data by year, region, severity, and more.  
-   - Enables customized analysis for deeper insights.
- tablue :
-https://public.tableau.com/app/profile/shahd.ahmed7387/viz/AccidentAnalysisDashboard_17425834458860/AccidentAnalysisDashboard
+- Tableau Desktop for data visualization and dashboard development.
+- Tableau Public for sharing the interactive dashboard.
+- PowerPoint export for presenting the dashboard outside Tableau.
+
+## Repository contents
+
+- `Accident Analysis Dashboard.twb` — Tableau workbook.
+- `Accident Analysis Dashboard.pptx` — presentation export of the dashboard.
+- `README.md` — project documentation.
+
+## How to view the project
+
+1. Open the Tableau Public link below to explore the interactive dashboard.
+2. Use the filters to compare severity, geography, and time periods.
+3. To inspect or edit the workbook locally, open the `.twb` file in Tableau Desktop and reconnect the data source if Tableau asks for its original file path.
+
+## Tableau Public
+
+[Open the interactive Accident Analysis Dashboard](https://public.tableau.com/app/profile/shahd.ahmed7387/viz/AccidentAnalysisDashboard_17425834458860/AccidentAnalysisDashboard)
+
+## Portfolio note
+
+This project demonstrates practical skills in exploratory analysis, dashboard design, interactive filtering, geographic visualization, and communicating data-driven road-safety insights.
