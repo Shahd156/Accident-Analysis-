@@ -38,6 +38,10 @@ This project presents an interactive analysis of road-accident data. The dashboa
 2. Use the filters to compare severity, geography, and time periods.
 3. To inspect or edit the workbook locally, open the `.twb` file in Tableau Desktop and reconnect the data source if Tableau asks for its original file path.
 
+## Dashboard preview
+
+![Accident Analysis Dashboard](assets/tableau_dashboard_preview.png)
+
 ## Tableau Public
 
 [Open the interactive Accident Analysis Dashboard](https://public.tableau.com/app/profile/shahd.ahmed7387/viz/AccidentAnalysisDashboard_17425834458860/AccidentAnalysisDashboard)
